@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase:{
+    apiKey: "AIzaSyA-ySCyVNwhQ5dUEHP1OL_DXl8iicHtUiU",
+  authDomain: "emfy-27f1c.firebaseapp.com",
+  databaseURL: "https://emfy-27f1c-default-rtdb.firebaseio.com",
+  projectId: "emfy-27f1c",
+  storageBucket: "emfy-27f1c.appspot.com",
+  messagingSenderId: "839853002523",
+  appId: "1:839853002523:web:70de609155e8185c38cdbe",
+  measurementId: "G-CZ61NXGTE5"
+  }
 };
 
 /*

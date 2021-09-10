@@ -8,6 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 @NgModule({
   declarations: [
@@ -27,3 +29,5 @@ import { HeaderComponent } from './header/header.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
