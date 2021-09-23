@@ -1,0 +1,13 @@
+#second {
+  height: 300px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 5px;
+  overflow: hidden;
+  padding: 10px;
+  background-color: #ffdab9;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}

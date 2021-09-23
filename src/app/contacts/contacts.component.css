@@ -1,0 +1,31 @@
+a {
+  font-size: x-large;
+  font-style: normal;
+}
+body {
+  background-image: url("homebg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+#myhero {
+}
+
+#second {
+  height: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #c2c2a3;
+  opacity: 0.9;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
